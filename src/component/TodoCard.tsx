@@ -28,7 +28,6 @@ function TodoCard({
   const [openEditModal, setOpenEditModal] = useState(false);
 
   useEffect(() => {
-    console.log(isDone,id,'isDone');
     setIsCurDone(isDone);
   }, [isDone]);
 
